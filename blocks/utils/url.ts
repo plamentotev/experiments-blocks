@@ -6,7 +6,7 @@ export function getURL(context: Context, filePath: string): string {
   const sha = encodeURIComponent(context.sha);
   const path = encodeURI(filePath);
 
-  const baseURL = new URL(`https://raw.githubusercontent.com/${owner}/${repo}/${sha}/`);
+  const baseURL = new URL(`https://github.com/${owner}/${repo}/raw/${sha}/`);
   const url = new URL(path, baseURL);
   
   return url.toString();
