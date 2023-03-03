@@ -1,6 +1,5 @@
 {
-  "name": "blocks-template-react",
-  "version": "0.0.0",
+  "name": "experiments-blocks",
   "license": "MIT",
   "scripts": {
     "start": "node scripts/start.mjs",
